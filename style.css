@@ -46,3 +46,8 @@ button {
     color: white;
     opacity: 0.8;
 }
+
+p {
+    text-align: center;
+    font-size: 27px;
+}
