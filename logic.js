@@ -41,14 +41,14 @@ const Game = (playerOne, playerTwo) => {
                     if (counter == 3) {
                         let winDisplay = document.createElement("p");
                         winDisplay.innerHTML = `${player.getToken()} won the game!`;
-                        document.body.appendChild(winDisplay);
+                        document.querySelector('.endMessages').appendChild(winDisplay);
                         winner = true;
                         return;
                     }
                     if (playerOne.playerMoveset.length + playerTwo.playerMoveset.length == 9) {
                         let winDisplay = document.createElement("p");
                         winDisplay.innerHTML = "It is a tie!";
-                        document.body.appendChild(winDisplay);
+                        document.querySelector('.endMessages').appendChild(winDisplay);
                         winner = true;
                         return;
                     }
