@@ -1,4 +1,6 @@
 // TODO: AI, CSS
+// Continue from previous game with win history
+// Disable start game upon a match result
 
 const Player = (token) => {
     const getToken = () => token;

@@ -1,5 +1,6 @@
 body {
     position: relative;
+    background: linear-gradient(to right, #EDE574, #E1F5C4);
 }
 
 h1 {
